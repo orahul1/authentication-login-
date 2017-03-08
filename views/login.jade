@@ -1,0 +1,19 @@
+extends base
+
+block vars
+  - var title = 'Login'
+
+block body
+  h1 LogIn
+
+  form(method="post")
+
+    span User Name:
+    input(type="text", name="username", required=true)
+    br
+
+    span Password:
+    input(type="password", name="password", required=true)
+    br
+
+    input(type="submit")

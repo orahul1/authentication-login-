@@ -1,0 +1,12 @@
+db.userdetails.insert({userid: 1, 
+         "username":"user1", 
+         "password":"12345"})
+
+db.userdetails.insert({userid: 2, 
+         "username":"user2", 
+         "password":"qwerty"})
+
+db.userdetails.insert({userid: 3,
+        "username":"user3",
+        "password":"123rty"})
+

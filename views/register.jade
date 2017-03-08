@@ -1,0 +1,22 @@
+extends base
+
+block vars
+  - var title = 'Register'
+
+block body
+  h1 Create an Account
+
+  form(method="post")
+    span User Id:
+    input(type="text", name="userid", required=true)
+    br
+
+    span User Name:
+    input(type="text", name="username", required=true)
+    br
+
+    span Password:
+    input(type="password", name="password", required=true)
+    br
+
+    input(type="submit")
